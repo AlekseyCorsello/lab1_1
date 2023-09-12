@@ -1,0 +1,108 @@
+2023-09-12 21:35:20.422  4881-4881  ziparchive              com.example.lab1                     W  Unable to open '/data/app/~~J0lIZcXsboFrIQSTyYjjtw==/com.example.lab1-ZHbJZbA09mBmipfGs2xNhw==/base.dm': No such file or directory
+2023-09-12 21:35:20.423  4881-4881  ziparchive              com.example.lab1                     W  Unable to open '/data/app/~~J0lIZcXsboFrIQSTyYjjtw==/com.example.lab1-ZHbJZbA09mBmipfGs2xNhw==/base.dm': No such file or directory
+2023-09-12 21:35:20.890  4881-4881  nativeloader            com.example.lab1                     D  Configuring clns-6 for other apk /data/app/~~J0lIZcXsboFrIQSTyYjjtw==/com.example.lab1-ZHbJZbA09mBmipfGs2xNhw==/base.apk. target_sdk_version=33, uses_libraries=, library_path=/data/app/~~J0lIZcXsboFrIQSTyYjjtw==/com.example.lab1-ZHbJZbA09mBmipfGs2xNhw==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.lab1
+2023-09-12 21:35:21.016  4881-4881  GraphicsEnvironment     com.example.lab1                     V  Currently set values for:
+2023-09-12 21:35:21.016  4881-4881  GraphicsEnvironment     com.example.lab1                     V    angle_gl_driver_selection_pkgs=[]
+2023-09-12 21:35:21.017  4881-4881  GraphicsEnvironment     com.example.lab1                     V    angle_gl_driver_selection_values=[]
+2023-09-12 21:35:21.029  4881-4881  GraphicsEnvironment     com.example.lab1                     V  ANGLE GameManagerService for com.example.lab1: false
+2023-09-12 21:35:21.030  4881-4881  GraphicsEnvironment     com.example.lab1                     V  com.example.lab1 is not listed in per-application setting
+2023-09-12 21:35:21.032  4881-4881  GraphicsEnvironment     com.example.lab1                     V  Neither updatable production driver nor prerelease driver is supported.
+2023-09-12 21:35:21.557  4881-4909  libEGL                  com.example.lab1                     D  loaded /vendor/lib64/egl/libEGL_emulation.so
+2023-09-12 21:35:21.560  4881-4909  libEGL                  com.example.lab1                     D  loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+2023-09-12 21:35:21.565  4881-4909  libEGL                  com.example.lab1                     D  loaded /vendor/lib64/egl/libGLESv2_emulation.so
+2023-09-12 21:35:21.780  4881-4881  AppCompatDelegate       com.example.lab1                     D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2023-09-12 21:35:21.977  4881-4881  DEBUG:                  com.example.lab1                     W  MainActivity onCreate() called
+2023-09-12 21:35:22.113  4881-4881  om.example.lab1         com.example.lab1                     W  Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+2023-09-12 21:35:22.120  4881-4881  om.example.lab1         com.example.lab1                     W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+2023-09-12 21:35:22.162  4881-4881  Compatibil...geReporter com.example.lab1                     D  Compat change id reported: 210923482; UID 10182; state: ENABLED
+2023-09-12 21:35:22.335  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onStart() called
+2023-09-12 21:35:22.341  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onResume() called
+2023-09-12 21:35:22.365  4881-4881  Compatibil...geReporter com.example.lab1                     D  Compat change id reported: 237531167; UID 10182; state: DISABLED
+2023-09-12 21:35:22.368  4881-4881  OpenGLRenderer          com.example.lab1                     W  Unknown dataspace 0
+2023-09-12 21:35:22.631  4881-4907  OpenGLRenderer          com.example.lab1                     W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2023-09-12 21:35:22.633  4881-4907  OpenGLRenderer          com.example.lab1                     W  Failed to initialize 101010-2 format, error = EGL_SUCCESS
+2023-09-12 21:35:22.736  4881-4907  Gralloc4                com.example.lab1                     I  mapper 4.x is not supported
+2023-09-12 21:35:22.768  4881-4907  OpenGLRenderer          com.example.lab1                     E  Unable to match the desired swap behavior.
+--------- beginning of crash
+2023-09-12 21:35:46.240  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onPause() called
+2023-09-12 21:35:46.246  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onStop() called
+2023-09-12 21:35:46.257  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onDestroy() called
+2023-09-12 21:35:46.265  4881-4881  WindowOnBackDispatcher  com.example.lab1                     W  sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@cf89ae6
+2023-09-12 21:35:46.359  4881-4881  DEBUG:                  com.example.lab1                     W  MainActivity onCreate() called
+2023-09-12 21:35:46.429  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onStart() called
+2023-09-12 21:35:46.433  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onResume() called
+2023-09-12 21:35:46.518  4881-4907  OpenGLRenderer          com.example.lab1                     E  Unable to match the desired swap behavior.
+2023-09-12 21:37:07.201  4881-4907  EGL_emulation           com.example.lab1                     D  app_time_stats: avg=6704.32ms min=1.86ms max=80249.45ms count=12
+2023-09-12 21:37:07.690  4881-4881  Choreographer           com.example.lab1                     I  Skipped 43 frames!  The application may be doing too much work on its main thread.
+2023-09-12 21:37:07.732  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onPause() called
+2023-09-12 21:37:07.759  4881-4926  OpenGLRenderer          com.example.lab1                     I  Davey! duration=782ms; Flags=0, FrameTimelineVsyncId=19871, IntendedVsync=401932267408, Vsync=402648934046, InputEventId=0, HandleInputStart=402665361100, AnimationStart=402665443900, PerformTraversalsStart=402665645800, DrawStart=402665911900, FrameDeadline=402682267378, FrameInterval=402663553400, FrameStartTime=16666666, SyncQueued=402671761100, SyncStart=402673709200, IssueDrawCommandsStart=402680692400, SwapBuffers=402683676800, FrameCompleted=402717190500, DequeueBufferDuration=2085500, QueueBufferDuration=931300, GpuCompleted=402717190500, SwapBuffersCompleted=402692735500, DisplayPresentTime=0, CommandSubmissionCompleted=402683676800, 
+2023-09-12 21:37:08.207  4881-4907  OpenGLRenderer          com.example.lab1                     E  Unable to match the desired swap behavior.
+2023-09-12 21:37:08.273  4881-4907  EGL_emulation           com.example.lab1                     D  app_time_stats: avg=15.32ms min=1.85ms max=168.80ms count=29
+2023-09-12 21:37:09.817  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onStop() called
+2023-09-12 21:37:25.898  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onStart() called
+2023-09-12 21:37:25.900  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onResume() called
+2023-09-12 21:37:25.977  4881-4907  OpenGLRenderer          com.example.lab1                     E  Unable to match the desired swap behavior.
+2023-09-12 21:37:27.377  4881-4881  WindowOnBackDispatcher  com.example.lab1                     W  sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@c763e1c
+2023-09-12 21:37:41.759  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onPause() called
+2023-09-12 21:37:41.787  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onStop() called
+2023-09-12 21:37:41.802  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onDestroy() called
+2023-09-12 21:37:41.813  4881-4881  WindowOnBackDispatcher  com.example.lab1                     W  sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@77fd819
+2023-09-12 21:37:41.952  4881-4881  DEBUG:                  com.example.lab1                     W  MainActivity onCreate() called
+2023-09-12 21:37:42.146  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onStart() called
+2023-09-12 21:37:42.162  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onResume() called
+2023-09-12 21:37:42.467  4881-4907  OpenGLRenderer          com.example.lab1                     E  Unable to match the desired swap behavior.
+2023-09-12 21:37:42.659  4881-4926  OpenGLRenderer          com.example.lab1                     I  Davey! duration=757ms; Flags=1, FrameTimelineVsyncId=21330, IntendedVsync=436815599346, Vsync=437182265998, InputEventId=0, HandleInputStart=437192428700, AnimationStart=437192478300, PerformTraversalsStart=437193200100, DrawStart=437501664300, FrameDeadline=436832266012, FrameInterval=437190824700, FrameStartTime=16666666, SyncQueued=437537596000, SyncStart=437547655500, IssueDrawCommandsStart=437547795700, SwapBuffers=437553226800, FrameCompleted=437582820300, DequeueBufferDuration=40100, QueueBufferDuration=396700, GpuCompleted=437582820300, SwapBuffersCompleted=437556978900, DisplayPresentTime=0, CommandSubmissionCompleted=437553226800, 
+2023-09-12 21:41:12.984  4881-4907  EGL_emulation           com.example.lab1                     D  app_time_stats: avg=21037.81ms min=16.95ms max=209725.59ms count=10
+2023-09-12 21:41:12.990  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onPause() called
+2023-09-12 21:41:13.056  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onStop() called
+2023-09-12 21:41:13.066  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onDestroy() called
+2023-09-12 21:41:13.088  4881-4881  WindowOnBackDispatcher  com.example.lab1                     W  sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@4234ec3
+2023-09-12 21:41:13.317  4881-4881  DEBUG:                  com.example.lab1                     W  MainActivity onCreate() called
+2023-09-12 21:41:13.556  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onStart() called
+2023-09-12 21:41:13.562  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onResume() called
+2023-09-12 21:41:13.649  4881-4907  OpenGLRenderer          com.example.lab1                     E  Unable to match the desired swap behavior.
+2023-09-12 22:36:27.217  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onPause() called
+2023-09-12 22:36:27.239  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onStop() called
+2023-09-12 22:36:27.243  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onDestroy() called
+2023-09-12 22:36:27.248  4881-4881  WindowOnBackDispatcher  com.example.lab1                     W  sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@ddf66f5
+2023-09-12 22:36:27.318  4881-4881  DEBUG:                  com.example.lab1                     W  MainActivity onCreate() called
+2023-09-12 22:36:27.437  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onStart() called
+2023-09-12 22:36:27.441  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onResume() called
+2023-09-12 22:36:27.569  4881-4907  OpenGLRenderer          com.example.lab1                     E  Unable to match the desired swap behavior.
+2023-09-12 22:36:44.895  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onPause() called
+2023-09-12 22:36:44.917  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onStop() called
+2023-09-12 22:36:44.927  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onDestroy() called
+2023-09-12 22:36:44.930  4881-4881  WindowOnBackDispatcher  com.example.lab1                     W  sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@4b58331
+2023-09-12 22:36:45.051  4881-4881  DEBUG:                  com.example.lab1                     W  MainActivity onCreate() called
+2023-09-12 22:36:45.113  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onStart() called
+2023-09-12 22:36:45.117  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onResume() called
+2023-09-12 22:36:45.259  4881-4907  OpenGLRenderer          com.example.lab1                     E  Unable to match the desired swap behavior.
+2023-09-12 22:50:29.441  4881-4881  om.example.lab1         com.example.lab1                     W  DexFile /data/data/com.example.lab1/code_cache/.studio/instruments-181d6ec9.jar is in boot class path but is not in a known location
+2023-09-12 22:50:29.449  4881-4881  om.example.lab1         com.example.lab1                     W  Current dex file has more than one class in it. Calling RetransformClasses on this class might fail if no transformations are applied to it!
+2023-09-12 22:50:29.456  4881-4881  om.example.lab1         com.example.lab1                     W  Current dex file has more than one class in it. Calling RetransformClasses on this class might fail if no transformations are applied to it!
+2023-09-12 22:50:29.462  4881-4881  om.example.lab1         com.example.lab1                     W  Redefining intrinsic method java.lang.Thread java.lang.Thread.currentThread(). This may cause the unexpected use of the original definition of java.lang.Thread java.lang.Thread.currentThread()in methods that have already been compiled.
+2023-09-12 22:50:29.462  4881-4881  om.example.lab1         com.example.lab1                     W  Redefining intrinsic method boolean java.lang.Thread.interrupted(). This may cause the unexpected use of the original definition of boolean java.lang.Thread.interrupted()in methods that have already been compiled.
+2023-09-12 22:50:29.465  4881-4881  om.example.lab1         com.example.lab1                     W  Current dex file has more than one class in it. Calling RetransformClasses on this class might fail if no transformations are applied to it!
+2023-09-12 22:50:29.473  4881-4881  om.example.lab1         com.example.lab1                     W  Current dex file has more than one class in it. Calling RetransformClasses on this class might fail if no transformations are applied to it!
+2023-09-12 22:50:29.487  4881-4881  om.example.lab1         com.example.lab1                     W  Current dex file has more than one class in it. Calling RetransformClasses on this class might fail if no transformations are applied to it!
+2023-09-12 22:50:29.552  4881-4881  om.example.lab1         com.example.lab1                     W  Cleared Reference was only reachable from finalizer (only reported once)
+2023-09-12 22:50:29.555  4881-4881  om.example.lab1         com.example.lab1                     I  Explicit concurrent copying GC freed 30936(1165KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 3757KB/7514KB, paused 589us,76us total 18.434ms
+2023-09-12 22:50:29.555  4881-4881  om.example.lab1         com.example.lab1                     W  Reducing the number of considered missed Gc histogram windows from 448 to 100
+2023-09-12 22:50:29.962  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onPause() called
+2023-09-12 22:50:29.996  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onStop() called
+2023-09-12 22:50:29.997  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onDestroy() called
+2023-09-12 22:50:29.998  4881-4881  WindowOnBackDispatcher  com.example.lab1                     W  sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@adbf2b0
+2023-09-12 22:50:30.050  4881-4881  DEBUG:                  com.example.lab1                     W  MainActivity onCreate() called
+2023-09-12 22:50:30.101  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onStart() called
+2023-09-12 22:50:30.107  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onResume() called
+2023-09-12 22:50:30.383  4881-4907  OpenGLRenderer          com.example.lab1                     E  Unable to match the desired swap behavior.
+2023-09-12 22:50:45.412  4881-4881  AutofillManager         com.example.lab1                     D  Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+2023-09-12 22:50:45.450  4881-4907  EGL_emulation           com.example.lab1                     D  app_time_stats: avg=1354.60ms min=1.63ms max=14814.03ms count=11
+2023-09-12 22:50:45.801  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onPause() called
+2023-09-12 22:50:46.024  4881-4907  OpenGLRenderer          com.example.lab1                     E  Unable to match the desired swap behavior.
+2023-09-12 22:50:46.874  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onStop() called
+2023-09-12 22:50:55.668  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onRestart() called
+2023-09-12 22:50:55.668  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onStart() called
+2023-09-12 22:50:55.671  4881-4881  MyApp                   com.example.lab1                     W  MainActivity onResume() called
+2023-09-12 22:50:55.717  4881-4907  OpenGLRenderer          com.example.lab1                     E  Unable to match the desired swap behavior.
+2023-09-12 22:50:56.603  4881-4881  WindowOnBackDispatcher  com.example.lab1                     W  sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@c5cdfcb
