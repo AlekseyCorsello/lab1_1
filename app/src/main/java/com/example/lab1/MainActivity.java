@@ -36,4 +36,40 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    protected void onStart() {
+        Log.w("MyApp", "MainActivity onStart() called");
+        super.onStart();
+    }
+
+    @Override
+    protected void onResume() {
+        Log.w("MyApp", "MainActivity onResume() called");
+        super.onResume();
+    }
+
+    @Override
+    protected void onPause() {
+        Log.w("MyApp", "MainActivity onPause() called");
+        super.onPause();
+    }
+
+    @Override
+    protected void onStop() {
+        Log.w("MyApp", "MainActivity onStop() called");
+        super.onStop();
+    }
+
+    @Override
+    protected void onRestart() {
+        Log.w("MyApp", "MainActivity onRestart() called");
+        super.onRestart();
+    }
+
+    @Override
+    protected void onDestroy() {
+        Log.w("MyApp", "MainActivity onDestroy() called");
+        super.onDestroy();
+    }
 }
